@@ -1,0 +1,74 @@
+{
+  "name": "reshapeicons",
+  "version": "1.0.0",
+  "description": "Simple and beautiful line icons.",
+  "main": "",
+  "keywords": [
+    "Icons",
+    "Font Icon",
+    "Slim Icon"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danvaly/reshapeicons.git"
+  },
+  "author": "Valentin Ghica <vali@danvaly.ro>",
+  "license": "MIT",
+  "scripts": {
+    "dist": "npm-run-all --parallel css copy-fonts",
+
+    "watch": "nodemon --ignore dist/ -e scss -x \"npm run css\"",
+
+    "css": "npm-run-all css-prefix css-minify",
+    "css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 src/scss/reshapeicons.scss dist/css/reshapeicons.css",
+    "css-minify": "cleancss --level 1 --source-map --source-map-inline-sources --output dist/css/reshapeicons.min.css dist/css/reshapeicons.css",
+    "css-prefix": "postcss --config build/postcss.config.js --replace \"dist/css/*.css\" \"!dist/css/*.min.css\"",
+
+    "copy-fonts": "rimraf dist/fonts && copyfiles -a \"src/fonts/**/*\" -u 2  dist/fonts"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.2.0",
+    "@babel/preset-env": "^7.2.3",
+    "autoprefixer": "^9.4.4",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-transform-es2015-modules-strip": "^0.1.1",
+    "browser-sync": "^2.26.3",
+    "chalk": "^2.4.2",
+    "clean-css-cli": "^4.2.1",
+    "copyfiles": "^2.1.0",
+    "cross-env": "^5.2.0",
+    "eslint": "^5.12.0",
+    "eslint-plugin-compat": "^2.6.3",
+    "foreach-cli": "^1.8.1",
+    "js-beautify": "^1.8.9",
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.9",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^6.1.1",
+    "pug": "^2.0.3",
+    "rimraf": "^2.6.3",
+    "shelljs": "^0.8.3",
+    "stylelint": "^9.9.0",
+    "stylelint-config-recommended-scss": "^3.2.0",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-order": "^2.0.0",
+    "stylelint-scss": "^3.4.4"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "browserslist": [
+    "last 1 major version",
+    ">= 1%",
+    "Chrome >= 45",
+    "Firefox >= 38",
+    "Edge >= 12",
+    "Explorer >= 10",
+    "iOS >= 9",
+    "Safari >= 9",
+    "Android >= 4.4",
+    "Opera >= 30"
+  ]
+}

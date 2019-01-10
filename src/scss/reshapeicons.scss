@@ -1,0 +1,1169 @@
+/*!
+* @package ReshapeIcons
+* @version 1.0
+*/
+$reshape-font-path: "../fonts/" !default;
+$reshape-font-family: "reshape" !default;
+$reshape-icon-prefix: "re-" !default;
+
+@if $reshape-font-family == "reshape" {
+  @font-face {
+    font-family: '#{$reshape-font-family}';
+    src: url('#{$reshape-font-path}reshape.eot');
+    src: url('#{$reshape-font-path}reshape.eot#iefix') format('embedded-opentype'),
+    url('#{$reshape-font-path}reshape.woff') format('woff'),
+    url('#{$reshape-font-path}reshape.ttf') format('truetype'),
+    url('#{$reshape-font-path}reshape.svg##{$reshape-font-family}') format('svg');
+  }
+}
+
+.#{$reshape-icon-prefix} {
+    font-family: '#{$reshape-font-family}' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.#{$reshape-icon-prefix}alert-octagon:before {
+  content: "\e81b";
+}
+
+.#{$reshape-icon-prefix}alert-circle:before {
+  content: "\e81c";
+}
+
+.#{$reshape-icon-prefix}activity:before {
+  content: "\e81d";
+}
+
+.#{$reshape-icon-prefix}alert-triangle:before {
+  content: "\e81e";
+}
+
+.#{$reshape-icon-prefix}align-center:before {
+  content: "\e81f";
+}
+
+.#{$reshape-icon-prefix}airplay:before {
+  content: "\e820";
+}
+
+.#{$reshape-icon-prefix}align-justify:before {
+  content: "\e821";
+}
+
+.#{$reshape-icon-prefix}align-left:before {
+  content: "\e822";
+}
+
+.#{$reshape-icon-prefix}align-right:before {
+  content: "\e823";
+}
+
+.#{$reshape-icon-prefix}arrow-down-left:before {
+  content: "\e824";
+}
+
+.#{$reshape-icon-prefix}arrow-down-right:before {
+  content: "\e825";
+}
+
+.#{$reshape-icon-prefix}anchor:before {
+  content: "\e826";
+}
+
+.#{$reshape-icon-prefix}aperture:before {
+  content: "\e827";
+}
+
+.#{$reshape-icon-prefix}arrow-left:before {
+  content: "\e828";
+}
+
+.#{$reshape-icon-prefix}arrow-right:before {
+  content: "\e829";
+}
+
+.#{$reshape-icon-prefix}arrow-down:before {
+  content: "\e82a";
+}
+
+.#{$reshape-icon-prefix}arrow-up-left:before {
+  content: "\e82b";
+}
+
+.#{$reshape-icon-prefix}arrow-up-right:before {
+  content: "\e82c";
+}
+
+.#{$reshape-icon-prefix}arrow-up:before {
+  content: "\e82d";
+}
+
+.#{$reshape-icon-prefix}award:before {
+  content: "\e82e";
+}
+
+.#{$reshape-icon-prefix}bar-chart:before {
+  content: "\e82f";
+}
+
+.#{$reshape-icon-prefix}at-sign:before {
+  content: "\e830";
+}
+
+.#{$reshape-icon-prefix}bar-chart-2:before {
+  content: "\e831";
+}
+
+.#{$reshape-icon-prefix}battery-charging:before {
+  content: "\e832";
+}
+
+.#{$reshape-icon-prefix}bell-off:before {
+  content: "\e833";
+}
+
+.#{$reshape-icon-prefix}battery:before {
+  content: "\e834";
+}
+
+.#{$reshape-icon-prefix}bluetooth:before {
+  content: "\e835";
+}
+
+.#{$reshape-icon-prefix}bell:before {
+  content: "\e836";
+}
+
+.#{$reshape-icon-prefix}book:before {
+  content: "\e837";
+}
+
+.#{$reshape-icon-prefix}briefcase:before {
+  content: "\e838";
+}
+
+.#{$reshape-icon-prefix}camera-off:before {
+  content: "\e839";
+}
+
+.#{$reshape-icon-prefix}calendar:before {
+  content: "\e83a";
+}
+
+.#{$reshape-icon-prefix}bookmark:before {
+  content: "\e83b";
+}
+
+.#{$reshape-icon-prefix}box:before {
+  content: "\e83c";
+}
+
+.#{$reshape-icon-prefix}camera:before {
+  content: "\e83d";
+}
+
+.#{$reshape-icon-prefix}check-circle:before {
+  content: "\e83e";
+}
+
+.#{$reshape-icon-prefix}check:before {
+  content: "\e83f";
+}
+
+.#{$reshape-icon-prefix}check-square:before {
+  content: "\e840";
+}
+
+.#{$reshape-icon-prefix}cast:before {
+  content: "\e841";
+}
+
+.#{$reshape-icon-prefix}chevron-down:before {
+  content: "\e842";
+}
+
+.#{$reshape-icon-prefix}chevron-left:before {
+  content: "\e843";
+}
+
+.#{$reshape-icon-prefix}chevron-right:before {
+  content: "\e844";
+}
+
+.#{$reshape-icon-prefix}chevron-up:before {
+  content: "\e845";
+}
+
+.#{$reshape-icon-prefix}chevrons-down:before {
+  content: "\e846";
+}
+
+.#{$reshape-icon-prefix}chevrons-right:before {
+  content: "\e847";
+}
+
+.#{$reshape-icon-prefix}chevrons-up:before {
+  content: "\e848";
+}
+
+.#{$reshape-icon-prefix}chevrons-left:before {
+  content: "\e849";
+}
+
+.#{$reshape-icon-prefix}circle:before {
+  content: "\e84a";
+}
+
+.#{$reshape-icon-prefix}clipboard:before {
+  content: "\e84b";
+}
+
+.#{$reshape-icon-prefix}chrome:before {
+  content: "\e84c";
+}
+
+.#{$reshape-icon-prefix}clock:before {
+  content: "\e84d";
+}
+
+.#{$reshape-icon-prefix}cloud-lightning:before {
+  content: "\e84e";
+}
+
+.#{$reshape-icon-prefix}cloud-drizzle:before {
+  content: "\e84f";
+}
+
+.#{$reshape-icon-prefix}cloud-rain:before {
+  content: "\e850";
+}
+
+.#{$reshape-icon-prefix}cloud-off:before {
+  content: "\e851";
+}
+
+.#{$reshape-icon-prefix}codepen:before {
+  content: "\e852";
+}
+
+.#{$reshape-icon-prefix}cloud-snow:before {
+  content: "\e853";
+}
+
+.#{$reshape-icon-prefix}compass:before {
+  content: "\e854";
+}
+
+.#{$reshape-icon-prefix}copy:before {
+  content: "\e855";
+}
+
+.#{$reshape-icon-prefix}corner-down-right:before {
+  content: "\e856";
+}
+
+.#{$reshape-icon-prefix}corner-down-left:before {
+  content: "\e857";
+}
+
+.#{$reshape-icon-prefix}corner-left-down:before {
+  content: "\e858";
+}
+
+.#{$reshape-icon-prefix}corner-left-up:before {
+  content: "\e859";
+}
+
+.#{$reshape-icon-prefix}corner-up-left:before {
+  content: "\e85a";
+}
+
+.#{$reshape-icon-prefix}corner-up-right:before {
+  content: "\e85b";
+}
+
+.#{$reshape-icon-prefix}corner-right-down:before {
+  content: "\e85c";
+}
+
+.#{$reshape-icon-prefix}corner-right-up:before {
+  content: "\e85d";
+}
+
+.#{$reshape-icon-prefix}cpu:before {
+  content: "\e85e";
+}
+
+.#{$reshape-icon-prefix}credit-card:before {
+  content: "\e85f";
+}
+
+.#{$reshape-icon-prefix}crosshair:before {
+  content: "\e860";
+}
+
+.#{$reshape-icon-prefix}disc:before {
+  content: "\e861";
+}
+
+.#{$reshape-icon-prefix}delete:before {
+  content: "\e862";
+}
+
+.#{$reshape-icon-prefix}download-cloud:before {
+  content: "\e863";
+}
+
+.#{$reshape-icon-prefix}download:before {
+  content: "\e864";
+}
+
+.#{$reshape-icon-prefix}droplet:before {
+  content: "\e865";
+}
+
+.#{$reshape-icon-prefix}edit-2:before {
+  content: "\e866";
+}
+
+.#{$reshape-icon-prefix}edit:before {
+  content: "\e867";
+}
+
+.#{$reshape-icon-prefix}edit-1:before {
+  content: "\e868";
+}
+
+.#{$reshape-icon-prefix}external-link:before {
+  content: "\e869";
+}
+
+.#{$reshape-icon-prefix}eye:before {
+  content: "\e86a";
+}
+
+.#{$reshape-icon-prefix}feather:before {
+  content: "\e86b";
+}
+
+.#{$reshape-icon-prefix}facebook:before {
+  content: "\e86c";
+}
+
+.#{$reshape-icon-prefix}file-minus:before {
+  content: "\e86d";
+}
+
+.#{$reshape-icon-prefix}eye-off:before {
+  content: "\e86e";
+}
+
+.#{$reshape-icon-prefix}fast-forward:before {
+  content: "\e86f";
+}
+
+.#{$reshape-icon-prefix}file-text:before {
+  content: "\e870";
+}
+
+.#{$reshape-icon-prefix}film:before {
+  content: "\e871";
+}
+
+.#{$reshape-icon-prefix}file:before {
+  content: "\e872";
+}
+
+.#{$reshape-icon-prefix}file-plus:before {
+  content: "\e873";
+}
+
+.#{$reshape-icon-prefix}folder:before {
+  content: "\e874";
+}
+
+.#{$reshape-icon-prefix}filter:before {
+  content: "\e875";
+}
+
+.#{$reshape-icon-prefix}flag:before {
+  content: "\e876";
+}
+
+.#{$reshape-icon-prefix}globe:before {
+  content: "\e877";
+}
+
+.#{$reshape-icon-prefix}grid:before {
+  content: "\e878";
+}
+
+.#{$reshape-icon-prefix}heart:before {
+  content: "\e879";
+}
+
+.#{$reshape-icon-prefix}home:before {
+  content: "\e87a";
+}
+
+.#{$reshape-icon-prefix}github:before {
+  content: "\e87b";
+}
+
+.#{$reshape-icon-prefix}image:before {
+  content: "\e87c";
+}
+
+.#{$reshape-icon-prefix}inbox:before {
+  content: "\e87d";
+}
+
+.#{$reshape-icon-prefix}layers:before {
+  content: "\e87e";
+}
+
+.#{$reshape-icon-prefix}info:before {
+  content: "\e87f";
+}
+
+.#{$reshape-icon-prefix}instagram:before {
+  content: "\e880";
+}
+
+.#{$reshape-icon-prefix}layout:before {
+  content: "\e881";
+}
+
+.#{$reshape-icon-prefix}link-2:before {
+  content: "\e882";
+}
+
+.#{$reshape-icon-prefix}life-buoy:before {
+  content: "\e883";
+}
+
+.#{$reshape-icon-prefix}link:before {
+  content: "\e884";
+}
+
+.#{$reshape-icon-prefix}log-in:before {
+  content: "\e885";
+}
+
+.#{$reshape-icon-prefix}list:before {
+  content: "\e886";
+}
+
+.#{$reshape-icon-prefix}lock:before {
+  content: "\e887";
+}
+
+.#{$reshape-icon-prefix}log-out:before {
+  content: "\e888";
+}
+
+.#{$reshape-icon-prefix}loader:before {
+  content: "\e889";
+}
+
+.#{$reshape-icon-prefix}mail:before {
+  content: "\e88a";
+}
+
+.#{$reshape-icon-prefix}maximize-2:before {
+  content: "\e88b";
+}
+
+.#{$reshape-icon-prefix}map:before {
+  content: "\e88c";
+}
+
+.#{$reshape-icon-prefix}map-pin:before {
+  content: "\e88e";
+}
+
+.#{$reshape-icon-prefix}menu:before {
+  content: "\e88f";
+}
+
+.#{$reshape-icon-prefix}message-circle:before {
+  content: "\e890";
+}
+
+.#{$reshape-icon-prefix}message-square:before {
+  content: "\e891";
+}
+
+.#{$reshape-icon-prefix}minimize-2:before {
+  content: "\e892";
+}
+
+.#{$reshape-icon-prefix}mic-off:before {
+  content: "\e893";
+}
+
+.#{$reshape-icon-prefix}minus-circle:before {
+  content: "\e894";
+}
+
+.#{$reshape-icon-prefix}mic:before {
+  content: "\e895";
+}
+
+.#{$reshape-icon-prefix}minus-square:before {
+  content: "\e896";
+}
+
+.#{$reshape-icon-prefix}minus:before {
+  content: "\e897";
+}
+
+.#{$reshape-icon-prefix}moon:before {
+  content: "\e898";
+}
+
+.#{$reshape-icon-prefix}monitor:before {
+  content: "\e899";
+}
+
+.#{$reshape-icon-prefix}more-vertical:before {
+  content: "\e89a";
+}
+
+.#{$reshape-icon-prefix}more-horizontal:before {
+  content: "\e89b";
+}
+
+.#{$reshape-icon-prefix}move:before {
+  content: "\e89c";
+}
+
+.#{$reshape-icon-prefix}music:before {
+  content: "\e89d";
+}
+
+.#{$reshape-icon-prefix}navigation-2:before {
+  content: "\e89e";
+}
+
+.#{$reshape-icon-prefix}navigation:before {
+  content: "\e89f";
+}
+
+.#{$reshape-icon-prefix}octagon:before {
+  content: "\e8a0";
+}
+
+.#{$reshape-icon-prefix}package:before {
+  content: "\e8a1";
+}
+
+.#{$reshape-icon-prefix}pause-circle:before {
+  content: "\e8a2";
+}
+
+.#{$reshape-icon-prefix}pause:before {
+  content: "\e8a3";
+}
+
+.#{$reshape-icon-prefix}percent:before {
+  content: "\e8a4";
+}
+
+.#{$reshape-icon-prefix}phone-call:before {
+  content: "\e8a5";
+}
+
+.#{$reshape-icon-prefix}phone-forwarded:before {
+  content: "\e8a6";
+}
+
+.#{$reshape-icon-prefix}phone-missed:before {
+  content: "\e8a7";
+}
+
+.#{$reshape-icon-prefix}phone-off:before {
+  content: "\e8a8";
+}
+
+.#{$reshape-icon-prefix}phone-incoming:before {
+  content: "\e8a9";
+}
+
+.#{$reshape-icon-prefix}phone:before {
+  content: "\e8aa";
+}
+
+.#{$reshape-icon-prefix}phone-outgoing:before {
+  content: "\e8ab";
+}
+
+.#{$reshape-icon-prefix}pie-chart:before {
+  content: "\e8ac";
+}
+
+.#{$reshape-icon-prefix}play-circle:before {
+  content: "\e8ad";
+}
+
+.#{$reshape-icon-prefix}play:before {
+  content: "\e8ae";
+}
+
+.#{$reshape-icon-prefix}plus-square:before {
+  content: "\e8af";
+}
+
+.#{$reshape-icon-prefix}plus-circle:before {
+  content: "\e8b0";
+}
+
+.#{$reshape-icon-prefix}plus:before {
+  content: "\e8b1";
+}
+
+.#{$reshape-icon-prefix}pocket:before {
+  content: "\e8b2";
+}
+
+.#{$reshape-icon-prefix}printer:before {
+  content: "\e8b3";
+}
+
+.#{$reshape-icon-prefix}power:before {
+  content: "\e8b4";
+}
+
+.#{$reshape-icon-prefix}radio:before {
+  content: "\e8b5";
+}
+
+.#{$reshape-icon-prefix}repeat:before {
+  content: "\e8b6";
+}
+
+.#{$reshape-icon-prefix}refresh-ccw:before {
+  content: "\e8b7";
+}
+
+.#{$reshape-icon-prefix}rewind:before {
+  content: "\e8b8";
+}
+
+.#{$reshape-icon-prefix}rotate-ccw:before {
+  content: "\e8b9";
+}
+
+.#{$reshape-icon-prefix}refresh-cw:before {
+  content: "\e8ba";
+}
+
+.#{$reshape-icon-prefix}rotate-cw:before {
+  content: "\e8bb";
+}
+
+.#{$reshape-icon-prefix}save:before {
+  content: "\e8bc";
+}
+
+.#{$reshape-icon-prefix}search:before {
+  content: "\e8bd";
+}
+
+.#{$reshape-icon-prefix}server:before {
+  content: "\e8be";
+}
+
+.#{$reshape-icon-prefix}scissors:before {
+  content: "\e8bf";
+}
+
+.#{$reshape-icon-prefix}share-2:before {
+  content: "\e8c0";
+}
+
+.#{$reshape-icon-prefix}share:before {
+  content: "\e8c1";
+}
+
+.#{$reshape-icon-prefix}shield:before {
+  content: "\e8c2";
+}
+
+.#{$reshape-icon-prefix}settings:before {
+  content: "\e8c3";
+}
+
+.#{$reshape-icon-prefix}skip-back:before {
+  content: "\e8c4";
+}
+
+.#{$reshape-icon-prefix}shuffle:before {
+  content: "\e8c5";
+}
+
+.#{$reshape-icon-prefix}sidebar:before {
+  content: "\e8c6";
+}
+
+.#{$reshape-icon-prefix}skip-forward:before {
+  content: "\e8c7";
+}
+
+.#{$reshape-icon-prefix}slack:before {
+  content: "\e8c8";
+}
+
+.#{$reshape-icon-prefix}slash:before {
+  content: "\e8c9";
+}
+
+.#{$reshape-icon-prefix}smartphone:before {
+  content: "\e8ca";
+}
+
+.#{$reshape-icon-prefix}square:before {
+  content: "\e8cb";
+}
+
+.#{$reshape-icon-prefix}speaker:before {
+  content: "\e8cc";
+}
+
+.#{$reshape-icon-prefix}star:before {
+  content: "\e8cd";
+}
+
+.#{$reshape-icon-prefix}stop-circle:before {
+  content: "\e8ce";
+}
+
+.#{$reshape-icon-prefix}sun:before {
+  content: "\e8cf";
+}
+
+.#{$reshape-icon-prefix}sunrise:before {
+  content: "\e8d0";
+}
+
+.#{$reshape-icon-prefix}tablet:before {
+  content: "\e8d1";
+}
+
+.#{$reshape-icon-prefix}tag:before {
+  content: "\e8d2";
+}
+
+.#{$reshape-icon-prefix}sunset:before {
+  content: "\e8d3";
+}
+
+.#{$reshape-icon-prefix}target:before {
+  content: "\e8d4";
+}
+
+.#{$reshape-icon-prefix}thermometer:before {
+  content: "\e8d5";
+}
+
+.#{$reshape-icon-prefix}thumbs-up:before {
+  content: "\e8d6";
+}
+
+.#{$reshape-icon-prefix}thumbs-down:before {
+  content: "\e8d7";
+}
+
+.#{$reshape-icon-prefix}toggle-left:before {
+  content: "\e8d8";
+}
+
+.#{$reshape-icon-prefix}toggle-right:before {
+  content: "\e8d9";
+}
+
+.#{$reshape-icon-prefix}trash-2:before {
+  content: "\e8da";
+}
+
+.#{$reshape-icon-prefix}trash:before {
+  content: "\e8db";
+}
+
+.#{$reshape-icon-prefix}trending-up:before {
+  content: "\e8dc";
+}
+
+.#{$reshape-icon-prefix}trending-down:before {
+  content: "\e8dd";
+}
+
+.#{$reshape-icon-prefix}triangle:before {
+  content: "\e8de";
+}
+
+.#{$reshape-icon-prefix}type:before {
+  content: "\e8df";
+}
+
+.#{$reshape-icon-prefix}twitter:before {
+  content: "\e8e0";
+}
+
+.#{$reshape-icon-prefix}upload:before {
+  content: "\e8e1";
+}
+
+.#{$reshape-icon-prefix}umbrella:before {
+  content: "\e8e2";
+}
+
+.#{$reshape-icon-prefix}upload-cloud:before {
+  content: "\e8e3";
+}
+
+.#{$reshape-icon-prefix}unlock:before {
+  content: "\e8e4";
+}
+
+.#{$reshape-icon-prefix}user-check:before {
+  content: "\e8e5";
+}
+
+.#{$reshape-icon-prefix}user-minus:before {
+  content: "\e8e6";
+}
+
+.#{$reshape-icon-prefix}user-plus:before {
+  content: "\e8e7";
+}
+
+.#{$reshape-icon-prefix}user-x:before {
+  content: "\e8e8";
+}
+
+.#{$reshape-icon-prefix}user:before {
+  content: "\e8e9";
+}
+
+.#{$reshape-icon-prefix}users:before {
+  content: "\e8ea";
+}
+
+.#{$reshape-icon-prefix}video-off:before {
+  content: "\e8eb";
+}
+
+.#{$reshape-icon-prefix}video:before {
+  content: "\e8ec";
+}
+
+.#{$reshape-icon-prefix}voicemail:before {
+  content: "\e8ed";
+}
+
+.#{$reshape-icon-prefix}volume-x:before {
+  content: "\e8ee";
+}
+
+.#{$reshape-icon-prefix}volume-2:before {
+  content: "\e8ef";
+}
+
+.#{$reshape-icon-prefix}volume-1:before {
+  content: "\e8f0";
+}
+
+.#{$reshape-icon-prefix}volume:before {
+  content: "\e8f1";
+}
+
+.#{$reshape-icon-prefix}watch:before {
+  content: "\e8f2";
+}
+
+.#{$reshape-icon-prefix}wifi:before {
+  content: "\e8f3";
+}
+
+.#{$reshape-icon-prefix}x-square:before {
+  content: "\e8f4";
+}
+
+.#{$reshape-icon-prefix}wind:before {
+  content: "\e8f5";
+}
+
+.#{$reshape-icon-prefix}x:before {
+  content: "\e8f6";
+}
+
+.#{$reshape-icon-prefix}x-circle:before {
+  content: "\e8f7";
+}
+
+.#{$reshape-icon-prefix}zap:before {
+  content: "\e8f8";
+}
+
+.#{$reshape-icon-prefix}zoom-in:before {
+  content: "\e8f9";
+}
+
+.#{$reshape-icon-prefix}zoom-out:before {
+  content: "\e8fa";
+}
+
+.#{$reshape-icon-prefix}command:before {
+  content: "\e8fb";
+}
+
+.#{$reshape-icon-prefix}cloud:before {
+  content: "\e8fc";
+}
+
+.#{$reshape-icon-prefix}hash:before {
+  content: "\e8fd";
+}
+
+.#{$reshape-icon-prefix}headphones:before {
+  content: "\e8fe";
+}
+
+.#{$reshape-icon-prefix}underline:before {
+  content: "\e8ff";
+}
+
+.#{$reshape-icon-prefix}italic:before {
+  content: "\e900";
+}
+
+.#{$reshape-icon-prefix}bold:before {
+  content: "\e901";
+}
+
+.#{$reshape-icon-prefix}crop:before {
+  content: "\e902";
+}
+
+.#{$reshape-icon-prefix}help-circle:before {
+  content: "\e903";
+}
+
+.#{$reshape-icon-prefix}paperclip:before {
+  content: "\e904";
+}
+
+.#{$reshape-icon-prefix}shopping-cart:before {
+  content: "\e905";
+}
+
+.#{$reshape-icon-prefix}tv:before {
+  content: "\e906";
+}
+
+.#{$reshape-icon-prefix}wifi-off:before {
+  content: "\e907";
+}
+
+.#{$reshape-icon-prefix}minimize:before {
+  content: "\e88d";
+}
+
+.#{$reshape-icon-prefix}maximize:before {
+  content: "\e908";
+}
+
+.#{$reshape-icon-prefix}gitlab:before {
+  content: "\e909";
+}
+
+.#{$reshape-icon-prefix}sliders:before {
+  content: "\e90a";
+}
+
+.#{$reshape-icon-prefix}star-on:before {
+  content: "\e90b";
+}
+
+.#{$reshape-icon-prefix}heart-on:before {
+  content: "\e90c";
+}
+
+.#{$reshape-icon-prefix}archive:before {
+  content: "\e90d";
+}
+
+.#{$reshape-icon-prefix}arrow-down-circle:before {
+  content: "\e90e";
+}
+
+.#{$reshape-icon-prefix}arrow-up-circle:before {
+  content: "\e90f";
+}
+
+.#{$reshape-icon-prefix}arrow-left-circle:before {
+  content: "\e910";
+}
+
+.#{$reshape-icon-prefix}arrow-right-circle:before {
+  content: "\e911";
+}
+
+.#{$reshape-icon-prefix}bar-chart-line-:before {
+  content: "\e912";
+}
+
+.#{$reshape-icon-prefix}bar-chart-line:before {
+  content: "\e913";
+}
+
+.#{$reshape-icon-prefix}book-open:before {
+  content: "\e914";
+}
+
+.#{$reshape-icon-prefix}code:before {
+  content: "\e915";
+}
+
+.#{$reshape-icon-prefix}database:before {
+  content: "\e916";
+}
+
+.#{$reshape-icon-prefix}dollar-sign:before {
+  content: "\e917";
+}
+
+.#{$reshape-icon-prefix}folder-plus:before {
+  content: "\e918";
+}
+
+.#{$reshape-icon-prefix}gift:before {
+  content: "\e919";
+}
+
+.#{$reshape-icon-prefix}folder-minus:before {
+  content: "\e91a";
+}
+
+.#{$reshape-icon-prefix}git-commit:before {
+  content: "\e91b";
+}
+
+.#{$reshape-icon-prefix}git-branch:before {
+  content: "\e91c";
+}
+
+.#{$reshape-icon-prefix}git-pull-request:before {
+  content: "\e91d";
+}
+
+.#{$reshape-icon-prefix}git-merge:before {
+  content: "\e91e";
+}
+
+.#{$reshape-icon-prefix}linkedin:before {
+  content: "\e91f";
+}
+
+.#{$reshape-icon-prefix}hard-drive:before {
+  content: "\e920";
+}
+
+.#{$reshape-icon-prefix}more-vertical-:before {
+  content: "\e921";
+}
+
+.#{$reshape-icon-prefix}more-horizontal-:before {
+  content: "\e922";
+}
+
+.#{$reshape-icon-prefix}rss:before {
+  content: "\e923";
+}
+
+.#{$reshape-icon-prefix}send:before {
+  content: "\e924";
+}
+
+.#{$reshape-icon-prefix}shield-off:before {
+  content: "\e925";
+}
+
+.#{$reshape-icon-prefix}shopping-bag:before {
+  content: "\e926";
+}
+
+.#{$reshape-icon-prefix}terminal:before {
+  content: "\e927";
+}
+
+.#{$reshape-icon-prefix}truck:before {
+  content: "\e928";
+}
+
+.#{$reshape-icon-prefix}zap-off:before {
+  content: "\e929";
+}
+
+.#{$reshape-icon-prefix}youtube:before {
+  content: "\e92a";
+}
+
+.#{$reshape-icon-prefix}1x {
+  font-size: 1em;
+}
+
+.#{$reshape-icon-prefix}2x {
+  font-size: 2em;
+}
+
+.#{$reshape-icon-prefix}3x {
+  font-size: 3em;
+}
+
+.#{$reshape-icon-prefix}4x {
+  font-size: 4em;
+}
+
+.#{$reshape-icon-prefix}5x {
+  font-size: 5em;
+}
+
+:root .#{$reshape-icon-prefix}flip-horizontal, :root .#{$reshape-icon-prefix}flip-vertical, :root .#{$reshape-icon-prefix}rotate-180, :root .#{$reshape-icon-prefix}rotate-270, :root .#{$reshape-icon-prefix}rotate-90 {
+  -webkit-filter: none;
+  filter: none;
+  display: inline-block;
+}
+
+.#{$reshape-icon-prefix}rotate-90 {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.#{$reshape-icon-prefix}rotate-180 {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.#{$reshape-icon-prefix}rotate-270 {
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+.#{$reshape-icon-prefix}flip-horizontal {
+  -webkit-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+.#{$reshape-icon-prefix}flip-vertical {
+  -webkit-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
