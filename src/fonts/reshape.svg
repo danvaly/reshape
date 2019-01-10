@@ -2,12 +2,12 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg>
 <metadata>
-Created by IconKit
+Created by Danvaly
 </metadata>
 <defs>
-<font id="iconkit" horiz-adv-x="1024" >
+<font id="reshape" horiz-adv-x="1024" >
   <font-face 
-    font-family="iconkit"
+    font-family="reshape"
     font-weight="500"
     font-stretch="normal"
     units-per-em="1024"

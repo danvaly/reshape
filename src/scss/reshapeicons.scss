@@ -13,7 +13,7 @@ $reshape-icon-prefix: "re-" !default;
     src: url('#{$reshape-font-path}reshape.eot#iefix') format('embedded-opentype'),
     url('#{$reshape-font-path}reshape.woff') format('woff'),
     url('#{$reshape-font-path}reshape.ttf') format('truetype'),
-    url('#{$reshape-font-path}reshape.svg##{$reshape-font-family}') format('svg');
+    url('#{$reshape-font-path}reshape.svg#reshape') format('svg');
   }
 }
 
